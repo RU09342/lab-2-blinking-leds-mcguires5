@@ -10,11 +10,11 @@ An infinate loop is then initiated and inside a delay is added and the led is to
 * Lab2SimpleBlinkFR2311
 * Lab2SimpleBlinkFR5994
 
-###Lab2SimpleBlinkF5529
+### Lab2SimpleBlinkF5529
 Pin 1 bit 0 is used to control the led on the board.
 
-###Lab2SimpleBlinkFR2311
+### Lab2SimpleBlinkFR2311
 Pin 1 bit 0 is used to control the led on the board.
 
-###Lab2SimpleBlinkFR5994
+### Lab2SimpleBlinkFR5994
 Pin 1 bit 0 is used to control the led on the board.
