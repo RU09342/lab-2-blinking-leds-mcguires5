@@ -8,9 +8,9 @@ Now that we have blinked at least 1 LED, what about blinking multiple LEDS at th
 * Lab2MultiBlinkFR5994
 
 
-#The Following are the differences for each folders
-##Lab2MultiBlinkF5529
+# The Following are the differences for each folders
+## Lab2MultiBlinkF5529
 
-##Lab2MultiBlinkFR2311
+## Lab2MultiBlinkFR2311
 
-##Lab2MultiBlinkFR5994
+## Lab2MultiBlinkFR5994
