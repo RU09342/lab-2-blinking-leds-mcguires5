@@ -330,3 +330,35 @@ org.eclipse.swt.SWTException: Device is disposed
 	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4810)
 	at com.ti.ccstudio.project.ui.internal.widgets.IdentifyButtonUtility$UpdateDSProgressDialog.run(IdentifyButtonUtility.java:275)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-09-16 15:38:12.962 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2017-09-16 15:38:15.745
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2017-09-16 15:38:15.751
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-09-16 15:38:22.433
+!MESSAGE Removing part descriptor with the 'com.ti.uia.transport.monitor.ui.JTView' id and the 'UIA Transport Monitor' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-09-16 15:38:22.621
+!MESSAGE description is being loadded
+!SESSION 2017-09-16 15:59:23.066 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product -product com.ti.ccstudio.branding.product -data C:\Users\baseb\Desktop\Embeded Labs\lab-2-blinking-leds-mcguires5\Simple Blink -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2017-09-16 15:59:24.240
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2017-09-16 15:59:24.245
+!MESSAGE debugServerDir=C:/ti/ccsv7/ccs_base/DebugServer
