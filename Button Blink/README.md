@@ -6,9 +6,9 @@ Now that you have looked at blinking the LED from some built in delay, but what 
 * Lab2ButtonBlinkFR2311
 * Lab2ButtonBlinkFR5994
 
-#The following are the changes for each development board
-##Lab2ButtonBlinkF5529
+# The following are the changes for each development board
+## Lab2ButtonBlinkF5529
 
-##Lab2ButtonBlinkFR2311
+## Lab2ButtonBlinkFR2311
 
-##Lab2ButtonBlinkFR5994
+## Lab2ButtonBlinkFR5994
