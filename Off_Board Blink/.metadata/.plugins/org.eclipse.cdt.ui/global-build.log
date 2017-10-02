@@ -1,0 +1,1128 @@
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2001__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 17: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2001__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=0 --stack_size=50 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2001.cmd"  -llibc.a 
+<Linking>
+warning #10443-D: The ".stack" section size is required to be aligned to 4 bytes, but the specified size, 0x32, is not. The aligned size is 0x34
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "lab2OffBoardBlinkG2.hex"  "lab2OffBoardBlinkG2.out" 
+DEL /F "blink.obj" 
+DEL /F "blink.d" 
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2113__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 17: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2113__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2113.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "lab2OffBoardBlinkG2.hex"  "lab2OffBoardBlinkG2.out" 
+DEL /F "blink.obj" 
+DEL /F "blink.d" 
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 17: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 clean -O 
+DEL /F  "lab2OffBoardBlinkG2.hex"  "lab2OffBoardBlinkG2.out" 
+DEL /F "blink.obj" 
+DEL /F "blink.d" 
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 17: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'blink.obj' failed
+"../blink.c", line 18: error #20: identifier "toggleLed2" is undefined
+"../blink.c", line 23: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 23: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+1 error detected in the compilation of "../blink.c".
+gmake: *** [blink.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 24: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 32: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 32: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 19: remark #1535-D: (ULP 8.1) variable "number" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../blink.c", line 36: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'blink.obj' failed
+"../blink.c", line 22: error #20: identifier "PM5CTL0" is undefined
+"../blink.c", line 22: error #20: identifier "LOCKLPM5" is undefined
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 24: remark #1535-D: (ULP 8.1) variable "Thresh" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../blink.c", line 35: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 42: error #20: identifier "Thresh" is undefined
+3 errors detected in the compilation of "../blink.c".
+gmake: *** [blink.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'blink.obj' failed
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 23: remark #1535-D: (ULP 8.1) variable "Thresh" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 41: error #20: identifier "Thresh" is undefined
+1 error detected in the compilation of "../blink.c".
+gmake: *** [blink.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'blink.obj' failed
+"../blink.c", line 24: error #20: identifier "AM" is undefined
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+1 error detected in the compilation of "../blink.c".
+gmake: *** [blink.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 34: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 49: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../blink.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/baseb/Desktop/Embeded Labs/lab-2-blinking-leds-mcguires5/Off_Board Blink/lab2OffBoardBlinkG2" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="blink.d_raw"  "../blink.c"
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../blink.c", line 49: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+'Finished building: ../blink.c'
+' '
+'Building target: lab2OffBoardBlinkG2.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab2OffBoardBlinkG2.map" --heap_size=80 --stack_size=80 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_17.6.0.STS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab2OffBoardBlinkG2_linkInfo.xml" --use_hw_mpy=none --rom_model -o "lab2OffBoardBlinkG2.out" "./blink.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: lab2OffBoardBlinkG2.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab2OffBoardBlinkG2 ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+gmake[1]: 'lab2OffBoardBlinkG2.out' is up to date.
+
+**** Build Finished ****

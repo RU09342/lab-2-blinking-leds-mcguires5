@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/lab2OffBoardBlinkG2/lnk_msp430g2001.cmd" element2="/lab2OffBoardBlinkG2/lnk_msp430g2113.cmd" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1506893791053"/>
+</session>

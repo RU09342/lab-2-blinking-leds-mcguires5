@@ -1,0 +1,38 @@
+#include <msp430.h>				
+
+
+/**
+ * blink.c
+ */
+void main(void)
+{
+	WDTCTL = WDTPW | WDTHOLD;		// stop watchdog timer
+	P1DIR |= (BIT0 + BIT4);					// configure P1.0 as output
+	P1DIR |= BIT4;
+	P1REN |= (BIT3);    //Enables the resistor for P1 Bit 3
+	P1OUT |= (BIT3);    //Sets resistor to pull up
+	P1IN &= 0;
+	volatile unsigned int i;		// volatile to prevent optimization
+
+	int toggleLed2 = 0;
+	int Thresh = 1;
+	int number = P1IN & BIT4;
+	while(1) {
+	        volatile unsigned int i;
+	        if(number != BIT3){
+	            if(Thresh >= 8){
+	                Thresh = 1;
+	            }else{
+	                Thresh = Thresh * 2;
+	            }
+	        }
+	        P1OUT ^= (BIT0);// Toggle P1.0 using exclusive-OR
+
+	        if(toggleLed2 == Thresh){
+	            P1OUT ^= (BIT4);
+	            toggleLed2 = 0;
+	        }
+	        toggleLed2 = toggleLed2 + 1;
+	        __delay_cycles(100000);
+	    }
+}
